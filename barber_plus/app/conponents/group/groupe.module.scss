@@ -1,0 +1,12 @@
+.container {
+  background-color: #121212aa;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  .description {
+    color: white;
+  }
+}
