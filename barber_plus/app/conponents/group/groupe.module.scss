@@ -1,12 +1,23 @@
 .container {
-  background-color: #121212aa;
+  background-color: #121212;
   display: flex;
   align-items: center;
   justify-content: space-between;
   text-decoration: none;
   border-radius: 10px;
   margin-bottom: 50px;
+  width: 100%;
+  height: 80px;
+  .logo {
+    margin-left: 15px;
+  }
   .description {
     color: white;
+  }
+  @media screen and (max-width: 600px) {
+    .container {
+      width: 95%;
+      border: solid 1px #0fe132;
+    }
   }
 }

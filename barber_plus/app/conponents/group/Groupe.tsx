@@ -16,7 +16,7 @@ const Groupe: FunctionComponent<GroupeProps> = ({
   return (
     <a href={socialMediaLink} className={styles.container}>
       <div className={styles.logo}>
-        <Image src={imageSrc} width={60} height={60} alt="logo" />
+        <Image src={imageSrc} width={50} height={50} alt="logo" />
       </div>
       <div className={styles.description}>
         <p>{text}</p>
