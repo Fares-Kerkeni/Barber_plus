@@ -1,5 +1,5 @@
 import "./reset.scss";
-import bg from "../public/images/profil.png";
+
 import style from "./layout.module.scss";
 import Nav from "./conponents/Nav/nav";
 export const metadata = {
